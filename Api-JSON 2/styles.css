@@ -1,0 +1,63 @@
+body { 
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: rgb(236, 231, 232);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: palevioletred;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: palevioletred;
+}
+
+#gallery {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    border-radius: 8px;
+
+}
+
+.personagem-card {
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.personagem-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.personagem-card h2 {
+    font-size: 18px;
+}
+
+.personagem-card p {
+   font-size: 14px;
+}
